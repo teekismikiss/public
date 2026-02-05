@@ -1,0 +1,57 @@
+
+<?php ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restauante Le Menhir Gijón</title>
+    <meta name="description" content="Restaurante Bretón: Galetes saladas, Crêpes, sidra.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="inicio">
+    <header>
+        <?php include 'header.php'?>
+        <a href="index.html" class="logo">Le Menhir</a>
+        <nav>
+            <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="carta.html">Carta</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Restaurante Bregón, Galletes y Crêpes saladas</h1>
+        <h2>Le Menhir, Comida Bretona</h2>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi mollitia, quod dolorum ducimus nemo inventore, doloribus, nostrum provident dolores et non qui temporibus fuga numquam quaerat veritatis tempora! Repellat?</p>
+
+        <img src="img/crepes_001.jpg" alt="Crepes salados y dulces, Galetes en Gijón, Asturias">
+    </main>
+
+    <footer>
+        <?php include 'header.php'?>
+        <nav>
+                <ul>
+                <li><a href="index.html">Inicio</a></li>
+            <li><a href="carta.html">Carta</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        <p>
+
+           <?php echo $address ?>
+           <?php echo $telefono ?>
+        </p>
+        <p>
+            <a href="avisolegal.html">Aviso Legal</a>
+            <a href="avisodeCookies.html">Aviso de Crêpes</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
