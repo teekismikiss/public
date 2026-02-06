@@ -9,9 +9,11 @@
     <meta name="description" content="Restaurante Bretón: Galetes saladas, Crêpes, sidra.">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body id="inicio">
-    <header>
-        <?php include 'header.php'?>
+
+<header>
+        <?php include 'componentes/header.php'?>
         <a href="index.html" class="logo">Le Menhir</a>
         <nav>
             <ul>
@@ -24,7 +26,7 @@
     </header>
 
     <main>
-        <h1>Restaurante Bregón, Galletes y Crêpes saladas</h1>
+            <h1>Restaurante Bregón, Galletes y Crêpes saladas</h1>
         <h2>Le Menhir, Comida Bretona</h2>
 
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis commodi mollitia, quod dolorum ducimus nemo inventore, doloribus, nostrum provident dolores et non qui temporibus fuga numquam quaerat veritatis tempora! Repellat?</p>
