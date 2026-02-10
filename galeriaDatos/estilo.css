@@ -1,0 +1,30 @@
+.VideoHtml {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.VideoHtml li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.ficha {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.ficha iframe {
+    display: block;
+    margin: 20px 0;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+}
