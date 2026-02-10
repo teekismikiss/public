@@ -1,20 +1,20 @@
-buscadortres.php
-$listaVideo=[
-    ['v' => '0S43IwBF0uM',]
-    ['v' => 'MJkdaVFHrto',]
-    ['v' => 'eesyGnJwfAY',]
-    ['v' => '3nYLTiY5skU',]
-]
-
-
-<ul class="Video HTML">
-<?
-    foreach($listaVideo as $elemento){
-        echo "<li>
-        <a href='https://www.youtube.com/watch?v={$elemento['v']}' target='_blank'>
-                <img src='https://img.youtube.com/vi/{$elemento['v']}/hqdefault.jpg'>
-                
-            </a></li>
-            ";
-    }
+<?php
+$listaVideo = [
+    ['v' => 'oY91DwQyGlI'],
+    ['v' => 'MJkdaVFHrto'],
+    ['v' => 'eesyGnJwfAY'],
+    ['v' => '3nYLTiY5skU']
+];
+include "buscadores.css";
 ?>
+<ul class="VideoHtml">
+    <?php foreach ($listaVideo as $elemento) {
+        $id = htmlspecialchars($elemento['v']);
+        ?>
+        <li>
+            <a href="https://www.youtube.com/watch?v=<?= $id ?>" target="_blank">
+                <img src="https://img.youtube.com/vi/<?= $id ?>/hqdefault.jpg" width="120" height="90">
+            </a>
+        </li>
+    <?php } ?>
+</ul>
